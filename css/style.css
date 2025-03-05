@@ -1,32 +1,38 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
 }
-h1{
+
+h1 {
     font-size: 3rem;
     margin-bottom: 1.1rem;
 }
-h2{
+
+h2 {
     font-size: 2.5rem;
     margin-bottom: 1.1rem;
 }
-h3{
+
+h3 {
     font-size: 2rem;
     margin-bottom: 1.1rem;
 }
-h4{
+
+h4 {
     font-size: 1.5rem;
     margin-bottom: 1.1rem;
 }
-h5,p{
+
+h5,
+p {
     font-size: 1.1rem;
     margin-bottom: 1.1rem;
 }
 
 
-header{
+header {
     height: 700px;
     background-color: rgb(0, 0, 0);
     color: white;
@@ -34,52 +40,62 @@ header{
 
 }
 
-.buttom div{
+.buttom div {
     flex: 1;
 }
 
-.top{
-
-display: flex;
-width: 80%;
-margin: 0 auto;
-align-items: center;
-justify-content: space-between;
-}
-
-.menu{
-
-    display: flex;
-}
-ul{
-    list-style: none;
-}
-
-li{
-    margin-right: 30px;
-    padding: 20px;
-    border-bottom: 2px solid #da980a00;
-     
-}
-li:hover{
-    border-bottom: 2px solid #da980a;
-}
-.top button{
-    padding: 10px 20px;
-    background-color: #da980a;
-    color: black;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-}
-.buttom{
+.top {
 
     display: flex;
     width: 80%;
-    margin: 0 auto ;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-right: 30px;
+    padding: 20px;
+    border-bottom: 2px solid #da980a00;
+
+}
+
+li:hover {
+    border-bottom: 2px solid #da980a;
+}
+
+.top button {
+    padding: 10px 20px;
+    background-color: #da980a;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#mobile {
+    display: none
+
+}
+
+.buttom {
+
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
     align-items: center;
 }
-.buttom button{
+
+.buttom button {
 
     padding: 10px 20px;
     background-color: #da980a;
@@ -88,23 +104,26 @@ li:hover{
     border-radius: 20px;
     cursor: pointer;
 }
-#green{
+
+#green {
     background-color: green;
 }
 
 
-.Bitcoin{
+.Bitcoin {
     display: flex;
     padding: 5%;
     align-items: center;
-    background-image: linear-gradient(to bottom , rgb(13, 13, 184), rgb(10, 77, 10)); 
-    color: white;  
+    background-image: linear-gradient(to bottom, rgb(13, 13, 184), rgb(10, 77, 10));
+    color: white;
     column-gap: 5%;
 }
-.Bitcoin > div{
+
+.Bitcoin>div {
     flex: 1;
 }
-.Bitcoin button{
+
+.Bitcoin button {
     padding: 10px 20px;
     background-color: #da980a;
     color: black;
@@ -113,22 +132,25 @@ li:hover{
     cursor: pointer;
 
 }
+
 .Bitcoin h5 {
     color: #da980a;
 }
 
-.WhyChooseUs{
+.WhyChooseUs {
     display: flex;
     padding: 5%;
     align-items: center;
     background-color: white;
-    color:black;  
+    color: black;
     column-gap: 5%;
 }
-.WhyChooseUs > div{
+
+.WhyChooseUs>div {
     flex: 1;
 }
-.WhyChooseUs button{
+
+.WhyChooseUs button {
     padding: 10px 20px;
     background-color: #da980a;
     color: black;
@@ -137,54 +159,61 @@ li:hover{
     cursor: pointer;
 
 }
+
 .WhyChooseUs h5 {
     color: #da980a;
 }
 
-marquee{
+marquee {
 
     padding: 10px;
 }
-.about{
+
+.about {
     padding: 4rem 0;
 }
 
-.about-top{
+.about-top {
     text-align: center;
     width: 80%;
     margin: 0 auto;
-    
-    
+
+
 }
-.about-top h5{
+
+.about-top h5 {
     color: #da980a;
 }
 
 
 
-.about-bottom{
+.about-bottom {
     display: flex;
     width: 80%;
-    margin: 30px auto; 
+    margin: 30px auto;
     gap: 30px;
 }
 
-#about-1,#about-2,#about-3 {
-flex: 1;
-text-align: center;
-padding: 3rem;
-box-shadow: 0 0 5px black;
+#about-1,
+#about-2,
+#about-3 {
+    flex: 1;
+    text-align: center;
+    padding: 3rem;
+    box-shadow: 0 0 5px black;
 
 }
-#about-2{
+
+#about-2 {
     background-color: #da980a;
     color: white;
 }
-#about-2 i{
+
+#about-2 i {
     color: white;
 }
 
-.about-bottom i{
+.about-bottom i {
     font-size: 3rem;
     color: #da980a;
     margin-bottom: 10px;
@@ -193,49 +222,55 @@ box-shadow: 0 0 5px black;
 
 
 
-.service{
+.service {
     padding: 4rem 0;
-    background-image: linear-gradient(to bottom , rgb(13, 13, 184), rgb(10, 77, 10)); 
+    background-image: linear-gradient(to bottom, rgb(13, 13, 184), rgb(10, 77, 10));
 }
 
-.service-top{
+.service-top {
     text-align: center;
     width: 80%;
     margin: 0 auto;
     color: white;
-    
-    
+
+
 }
-.service-top h5{
+
+.service-top h5 {
     color: #da980a;
 }
 
 
 
-.service-bottom{
+.service-bottom {
     display: flex;
     width: 80%;
-    margin: 30px auto; 
+    margin: 30px auto;
     gap: 30px;
 }
-.service-bottom i{
+
+.service-bottom i {
     color: #da980a;
     font-size: 2rem;
 }
-.service-bottom h4{
-   color: #da980a;
+
+.service-bottom h4 {
+    color: #da980a;
 }
 
-#service-1,#service-2,#service-3 {
-flex: 1;
-text-align: center;
-padding: 3rem;
-box-shadow: 0 0 5px black;
-background-color: white;
-border-radius: 5px;
+#service-1,
+#service-2,
+#service-3 {
+    flex: 1;
+    text-align: center;
+    padding: 3rem;
+    box-shadow: 0 0 5px black;
+    background-color: white;
+    border-radius: 5px;
 
 }
-.service button{
+
+.service button {
     padding: 10px 20px;
     background-color: #da980a;
     color: black;
@@ -243,28 +278,95 @@ border-radius: 5px;
     border-radius: 20px;
     cursor: pointer;
 }
-.about-bottom i{
+
+.about-bottom i {
     font-size: 3rem;
     color: #da980a;
     margin-bottom: 10px;
 }
 
-footer{
+footer {
     background-color: black;
-    padding: 10% 5%;
+    padding: 3rem 2rem 2rem 2rem;
     color: white;
 
 }
-footer main{
+
+footer main {
     margin: 0 auto;
     width: 80%;
 }
 
-footer section{
+footer section {
     display: flex;
     gap: 30px;
 }
 
-footer aside{
+footer aside {
     flex: 1;
+}
+
+footer .bottom{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copyright{
+    flex: 2;
+}
+
+.privacy{
+    flex: 1;
+    display: flex;
+
+}
+
+
+@media screen and (max-width:768px) {
+    .menu {
+
+        display: none;
+    }
+
+    .top button {
+
+        display: none;
+    }
+
+
+    #mobile {
+        display: block;
+        font-size: 2rem;
+
+    }
+    .about-bottom {
+        flex-direction: column;
+    }
+
+    .buttom {
+
+flex-direction: column-reverse;
+    }
+
+    header{
+        overflow-y: visible;
+        height: fit-content;
+        padding-bottom: 20px;
+    }
+
+    .Bitcoin {
+       flex-direction: column;
+    }
+
+    .WhyChooseUs {
+       flex-direction: column-reverse;
+    }
+
+    .service-bottom{
+        flex-direction:column-reverse ;
+    }
+    footer section {
+        flex-direction: column;
+    }
 }
