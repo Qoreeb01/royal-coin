@@ -31,6 +31,11 @@ p {
     margin-bottom: 1.1rem;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 
 header {
     height: 700px;
@@ -51,6 +56,8 @@ header {
     margin: 0 auto;
     align-items: center;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
 }
 
 .menu {
@@ -62,14 +69,14 @@ ul {
     list-style: none;
 }
 
-li {
+.menu li {
     margin-right: 30px;
     padding: 20px;
     border-bottom: 2px solid #da980a00;
 
 }
 
-li:hover {
+.menu li:hover {
     border-bottom: 2px solid #da980a;
 }
 
@@ -305,7 +312,10 @@ footer section {
 footer aside {
     flex: 1;
 }
-
+footer li{
+    margin-bottom: 10px;
+    list-style: none;
+}
 footer .bottom{
     margin-top: 10px;
     display: flex;
