@@ -277,6 +277,7 @@ marquee {
 
 }
 
+
 .service button {
     padding: 10px 20px;
     background-color: #da980a;
@@ -329,6 +330,79 @@ footer .bottom{
 .privacy{
     flex: 1;
     display: flex;
+
+}
+/* other page */
+.other-header{
+    height: 400px;
+}
+
+.other-buttom{
+    text-align: center;
+    margin-top: 4rem;
+}
+.rate{
+background-color: white;
+color: black;
+}
+.about-top hr{
+    width: 4rem;
+    margin: 10px auto;
+    background-color: #da980a;
+    height: 5px;
+}
+
+.rate-bottom{
+    margin: auto;
+    width: 80%;
+}
+.rate-bottom table{
+    border-collapse: collapse;
+}
+.rate-bottom tr{
+    border-bottom: 1px #000 solid ;
+}
+.rate-bottom td{
+    padding: 10px 0;
+}
+#rate-3 {
+    flex: 1;
+    text-align: center;
+    padding: 3rem;
+    box-shadow: 0 0 5px black;
+    background-color: rgb(9, 9, 90);
+    border-radius: 5px;
+    color: white;
+
+}
+.rate-next {
+    padding: 4rem 0;
+    background-image: linear-gradient(to bottom, rgb(13, 13, 184), rgb(10, 77, 10));
+}
+.rate-next button {
+    padding: 10px 20px;
+    background-color: #da980a;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.rate-next h3,h2{
+    color: #da980a;
+}
+.rate {
+    padding: 4rem 0;
+}
+
+
+/* contact page */
+#contact-form{
+    padding: 4rem 0;
+    background-image: ;
+}
+#contact-form section{
+    margin:2rem auto;
+    width: 50%;
 
 }
 
